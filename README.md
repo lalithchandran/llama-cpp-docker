@@ -124,6 +124,8 @@ You can extend this setup by:
 * Creating a multi-service Docker Compose setup
 * Integrating with OCR or vision pipelines
 
+---
+
 ## Use Cases
 
 * Local LLM experimentation
@@ -132,6 +134,33 @@ You can extend this setup by:
 * Multimodal model serving
 * Research projects
 
+---
+
+## Python Environment Setup
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate   # Windows
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+
+---
+Now let me ask something important:
+
+Is this repo:
+- Pure Docker (no Python runtime needed inside)?
+- Or are you planning to combine this with your FastAPI + OCR pipeline?
+
+Because if you're building toward AI backend roles, we should structure this like a **real AI microservice project**, not just a container wrapper.
+---
 ---
 
 ## Author
