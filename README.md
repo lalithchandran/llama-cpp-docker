@@ -159,8 +159,10 @@ Is this repo:
 - Pure Docker (no Python runtime needed inside)?
 - Or are you planning to combine this with your FastAPI + OCR pipeline?
 
-Because if you're building toward AI backend roles, we should structure this like a **real AI microservice project**, not just a container wrapper.
+
 ---
+Because if you're building toward AI backend roles, we should structure this like a **real AI microservice project**, not just a container wrapper.
+
 ---
 
 ## Author
