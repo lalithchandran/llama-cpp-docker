@@ -101,8 +101,9 @@ Default endpoint:
 
 Example request:
 
-curl http://localhost:8080/v1/chat/completions 
-  -H "Content-Type: application/json" 
+```
+curl http://localhost:8080/v1/chat/completions
+  -H "Content-Type: application/json"
   -d '{
     "model": "your-model-name",
     "messages": [
@@ -110,7 +111,8 @@ curl http://localhost:8080/v1/chat/completions
     ]
   }'
 
-<pre class="overflow-visible! px-0!" data-start="2098" data-end="2310"><div class="relative w-full my-4"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border corner-superellipse/1.1 border-token-border-light bg-token-bg-elevated-secondary rounded-3xl"><div class="corner-superellipse/1.1 rounded-3xl bg-token-bg-elevated-secondary"><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼk ͼy"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼr">}'</span></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+```
 
 ---
 
@@ -151,14 +153,14 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-
 ---
+
 Now let me ask something important:
 
 Is this repo:
+
 - Pure Docker (no Python runtime needed inside)?
 - Or are you planning to combine this with your FastAPI + OCR pipeline?
-
 
 Because if you're building toward AI backend roles, we should structure this like a **real AI microservice project**, not just a container wrapper.
 
